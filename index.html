@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Слайды</title>
+</head>
+<body>
+  <div class="logo">
+    <h3>Beachwear shop</h3>
+  </div>
+  <div class="heading" >
+    <h1>Which beach set do you choose?</h1>
+  </div>
+  <div class="body">
+      <div class="container">
+                  
+          <div class="slide" style="background-image: url(1f.jpg);">
+            <h2>Bandini</h2>
+            <p>Two-piece swimsuit with culottes</p>
+    <h3> 75,30$ </h3>
+  </div>
+  <div class="slide" style="background-image: url('2f.jpg');">
+    <h2>Brasilino</h2>
+    <p>Two-piece swimsuit with cape</p>
+    <h3> 85,99$ </h3>
+  </div>
+  <div class="slide" style="background-image: url('3f.jpg');">
+    <h2>Monokini</h2>
+    <p>View of a one-piece swimsuit, the back of the swimsuit has a separation between the top and bottom, a relief insert in the front</p>
+    <h3> 70,99$ </h3>
+  </div>
+  <div class="slide active" style="background-image: url('4f.jpg');">
+    <h2>Mayo</h2>
+    <p>V-neck</p>
+    <h3> 68,99$ </h3>
+  </div>
+  <div class="slide" style="background-image: url('5f.jpg');">
+    <h2>Bikini</h2>
+    <p>Two-piece swimsuit with cape and straw hat</p>
+    <h3> 120,20$ </h3>
+  </div>
+  <div class="slide" style="background-image: url('6f.jpg');">
+    <h2>Dress</h2>
+    <p>Beach long dress with dropped shoulders</p>
+    <h3> 65,00$ </h3>
+  </div>
+</div>
+</div>
+<div class="heading" >
+  <h2>If you want to order a beach set, write to us!</h2>
+</div>
+
+
+<!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xeqngann"
+  method="POST">
+
+  <input type="hidden" name="_language" value="en">
+<div class="heading">
+  <label>
+    Your email:
+    <input type="email" class="text-input" name="_replyto" placeholder="Your email..." required="">
+  </label>
+</div>
+
+<div class="heading">
+  <label>
+    Your message:
+    <textarea class="text-input" name="message" placeholder="Type your messagge..." required=""></textarea>
+  </label>
+</div>
+<br>
+<div class="heading">
+  <!-- your other form fields go here -->
+  <button class="btn" type="submit">Send</button>
+
+</form>
+</div>
+<script src=app.js></script>
+</body>
+</html>
